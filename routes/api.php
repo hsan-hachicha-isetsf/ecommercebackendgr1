@@ -16,6 +16,10 @@ Route::middleware('api')->group(function () {
 Route::middleware('api')->group(function () {
     Route::resource('scategories', ScategorieController::class);
 });
+
+Route::middleware('api')->group(function () {
+    Route::resource('articles', ArticleController::class);
+});
 Route::get("/listarticles/{idscat}",[ArticleController::class,"showArticlesBySCAT"])->name("");
 
 Route::get('/articles/art/articlespaginate', [ArticleController::class, 'articlesPaginate']);

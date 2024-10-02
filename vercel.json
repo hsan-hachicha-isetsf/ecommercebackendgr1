@@ -25,11 +25,11 @@
     "LOG_CHANNEL": "stderr",
     "SESSION_DRIVER": "cookie",
     "DB_CONNECTION":"mysql",
-    "DB_HOST":"mysql-17405d7c-hsan-d868.d.aivencloud.com",
-    "DB_PORT":"25499",
+    "DB_HOST":"mysql-388ddc3c-iit-2024.g.aivencloud.com",
+    "DB_PORT":"26517",
     "DB_DATABASE":"dbcommerceg1",
-    "DB_USERNAME":"user1",
-    "DB_PASSWORD":"AVNS_XREA0hxB5q9fLwQBqfm"
+    "DB_USERNAME":"iit2024",
+    "DB_PASSWORD":"AVNS_H7bXlaZyuKj9Xz90lPY"
     }
     
     }
